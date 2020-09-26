@@ -2,6 +2,6 @@ while true do
 local a = Instance.new("Part", workspace)
 a.BrickColor = BrickColor.random()
 a.Material = "Metal"
-a.Size = Vector3.new(100,100,100)
+a.Size = Vector3.new(1000,1000,1000)
 wait()
 end
