@@ -13,3 +13,19 @@ end
 RenderStepped:Connect(function()
    Redeem()
 end)
+
+--------------------------------
+--Alternative Version (Better)
+--------------------------------
+local RunService = game:GetService("RunService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RedeemCode = ReplicatedStorage.Interactions.Server.RedeemCode
+local Codes = ReplicatedStorage.Codes:GetChildren()
+
+RunService.Stepped:Connect(function()
+  for i, code in pairs(Codes) do
+    spawn(function()
+      RedeemCode:InvokeServer(code.Name)
+    end)
+  end
+end)
