@@ -52,7 +52,7 @@ while _G.t do
 	wait(3)
 	for i,v in pairs(game.Workspace:GetDescendants()) do
 		if v.ClassName == "TouchTransmitter" and v.Parent.Name == "Handle" then
-		  wait(0.01)
+			wait(0.01)
 			notificate()
 			wait()
 			deleter()
