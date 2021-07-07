@@ -1,4 +1,0 @@
-{
-	"PlayerWhitelist": [187957421, 1080965865],
-	"Blacklist": ["AMTG", "aww", "AdrianUI", "ATG", "AshuraUI", "Asylum", "Aureus", "bban", "Blackman", "Blazer", "TheBossHub", "ChatHax", "ScreenGuif", "HUBv1.0", "Exoliner", "Fur4", "GonerUI", "IY_GUI", "KaspersUI", "Logger", "OpenText", "Excluded", "QuantomUI", "nooties", "ProjectScripted", "Murder", "InfectScript", "SnakeVenomSS", "Toad", "AijuLove", "Trap", "Trollemius", "UndetectedUTG"]
-}
