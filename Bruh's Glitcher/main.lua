@@ -11,4 +11,4 @@
 .IDplayer -- nothing required
 .Sniper -gh 5063578607
 ]] 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SampleSacred/projectxnew/main/ProjectXV1_3.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tiurabe/roblox/master/Bruh's%20Glitcher/sauce.lua",true))()
