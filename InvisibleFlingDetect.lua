@@ -46,6 +46,7 @@ function Verify()
             if v:FindFirstChild("Humanoid") and tostring(v.Humanoid.RigType) == "Enum.HumanoidRigType.R6" then
                 if v:FindFirstChild("HumanoidRootPart") and not v:FindFirstChild("Head") and not v:FindFirstChild("Torso") and not v:FindFirstChild("Left Arm") and not v:FindFirstChild("Right Arm") and not v:FindFirstChild("Left Leg") and not v:FindFirstChild("Right Leg") then
                     Notificate(v.Name)
+                    v:FindFirstChild("HumanoidRootPart"):Destroy()
                 end
             end
         end
