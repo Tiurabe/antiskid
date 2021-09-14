@@ -1,5 +1,5 @@
 --Forked from: https://github.com/SenseiJoshy/L
-
+--Usage example: ESP(v.PrimaryPart, v.Name, Color3.new(255/255,0/255,0/255))
 
 function WTS(part)
 	local screen = workspace.CurrentCamera:WorldToViewportPoint(part.Position)
